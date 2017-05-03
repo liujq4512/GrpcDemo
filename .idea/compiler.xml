@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="gradle-client_main" target="1.8" />
+      <module name="gradle-client_test" target="1.8" />
+      <module name="gradle-server_main" target="1.8" />
+      <module name="gradle-server_test" target="1.8" />
+      <module name="testGrpc_main" target="1.8" />
+      <module name="testGrpc_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

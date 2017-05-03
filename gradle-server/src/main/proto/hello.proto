@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.test.grpc;
+option java_package = "com.dianrong.accounting.processor.message.proto.jobresult";
+
+message JobResultRequest{
+    string name=1;
+}
+
+message JobResultResponse{
+    string name=1;
+}
+
+
+
+service HelloService{
+    rpc sayHello(JobResultRequest) returns (JobResultResponse){
+
+    }
+}
